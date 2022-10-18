@@ -1,0 +1,30 @@
+<?php
+$sehirler= array ("balıkesir","kütahya","bursa","yalova","rize");
+$sehirler=["balıkesir","kütahya","bursa","yalova","rize"];
+$soneleman=count($sehirler)-1;
+echo $sehirler[$soneleman];
+?>
+
+<?php
+$sehirler= array("balıkesir","kütahya","bursa","yalova","rize");
+foreach($sehirler as $sehir) {
+echo $sehir . "<br>";
+}
+?>
+
+<?php
+$sehirler = ["balıkesir","kütahya","bursa","yalova","rize"]; 
+    for($x=0; $x <= (count($sehirler)-1); $x++ ):
+        echo $sehirler[$x].' , ';
+    endfor;
+?>
+
+<?php
+$sehirler=array("balıkesir","kütahya","bursa","yalova","rize");
+$sehir=0;
+while(@$sehirler[$sehir]){
+   echo $sehirler[$sehir]," ";
+   $sehir++;
+}
+?>
+

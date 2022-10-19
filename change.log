@@ -28,3 +28,13 @@ while($sehirler[$sehir]){
 }
 ?>
 
+<?php
+$sehirler=array("balıkesir","kütahya","bursa","yalova","rize");
+$i=0;
+do
+{
+echo $sehirler [$i++];
+echo "<br>";
+} while($i<count($sehirler))
+?>
+

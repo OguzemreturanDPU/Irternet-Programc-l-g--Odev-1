@@ -22,7 +22,7 @@ $sehirler = ["balıkesir","kütahya","bursa","yalova","rize"];
 <?php
 $sehirler=array("balıkesir","kütahya","bursa","yalova","rize");
 $sehir=0;
-while(@$sehirler[$sehir]){
+while($sehirler[$sehir]){
    echo $sehirler[$sehir]," ";
    $sehir++;
 }
